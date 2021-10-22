@@ -1,0 +1,51 @@
+* {
+    padding   : 0;
+    margin    : 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width          : 100vw;
+    height         : 100vh;
+    display        : flex;
+    align-items    : center;
+    justify-content: center;
+}
+
+.container .live {
+    width           : 400px;
+    height          : 150px;
+    background-color: red;
+    position        : relative;
+    border          : 10px solid white;
+    border-radius   : 45px;
+}
+
+.container .live .box {
+    background-color: red;
+    width           : 90px;
+    height          : 90px;
+    border          : 10px solid white;
+    border-radius   : 130%;
+    position        : absolute;
+    top             : -30%;
+    right           : -10%;
+}
+
+.container .live .box h1 {
+    position      : absolute;
+    font-size     : 6rem;
+    right         : 150%;
+    top           : 39px;
+    text-transform: uppercase;
+    color         : white;
+}
+
+.container .live .box .small {
+    width        : 40px;
+    height       : 40px;
+    background   : black;
+    border       : 10px solid white;
+    border-radius: 50%;
+    margin       : 14px 0 0 17px;
+}
